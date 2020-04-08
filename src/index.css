@@ -7,7 +7,7 @@ body {
 }
 
 /* styling paper */
-#paper {
+#paper{
   width: 1000px;
   height: 800px;
   position: relative;
@@ -16,6 +16,14 @@ body {
   padding-bottom: 40px;
   background-color: white;
   box-shadow: 0px 0px 5px 0px #888;
+}
+
+/* styling textbox */
+.textbox {
+  width: 1000px;
+  height: 800px;
+  background-color: transparent;
+  border: transparent;
 }
 
 /* styling red vertical line */
@@ -36,17 +44,19 @@ body {
 }
 
 /* styling text content */
-#content {
+#content, .textbox {
   padding-top: 6px;
   padding-left: 56px;
   padding-right: 16px;
   line-height: 25px;
   font-family: 'Dancing Script', cursive;
-  font-size: 15px;
+  font-size: 19px;
   letter-spacing: 1px;
   word-spacing: 5px;
+  color: red;
 }
-						
+
+
  
  
 
